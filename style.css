@@ -1,0 +1,135 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:  sans-serif;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background: #e8e0d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator
+{
+    border: 5px solid black;
+    background: rgb(29, 26, 26);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+}
+.calculator form input
+{
+    border: 0;
+    outline: 0; 
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.21), 5px 5px 15px rgba(0, 0, 0, 0.2) ;
+    background-color: #cf722b;
+    font-size: 20px;
+    color:  #fff ;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 8px;
+    transition: all 0.1s ease;
+}
+.calculator form input.shade:hover
+{
+    background: #d28549;
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.21), -5px -5px 15px rgba(0, 0, 0, 0.2) ;
+}
+.calculator form input.shade:active
+{
+    background: #d48c55;
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.21), -5px -5px 15px rgba(0, 0, 0, 0.2) ;
+}
+/* .calculator form input.operator:hover
+{
+    background-color: #fff;
+} */
+form .display
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input
+{
+    padding-right: 10px;
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+ form input.equal
+
+ {
+    width: 145px;
+ }
+ h2
+ {
+    position: relative;
+    display: block;
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+ }
+
+ form input.operator
+ {
+    background-color: #f3debe;
+    color: #cf722b;
+    border-radius: 30px;
+ }
+
+ .calculator form input.operator:hover
+ {
+    background: #fff;
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.21), -5px -5px 15px rgba(0, 0, 0, 0.2) ;
+ }
+ .calculator form input.operator:active{
+    background: #fff;
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.21), -5px -5px 15px rgba(0, 0, 0, 0.2) ;
+ }
+
+ form input.screen
+ {
+    background: #7e7873;
+    border: 4px solid #443d38;
+ }
+ form input.opt2
+ {
+    color: #fff;
+    background: rgb(162, 35, 35);
+ }
+ .calculator form input.opt2:hover
+ {
+    background: rgb(184, 49, 49);
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.21), -5px -5px 15px rgba(0, 0, 0, 0.2) ;
+ }
+ .calculator form input.opt2:active{
+    background: rgb(199, 65, 65);
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.21), -5px -5px 15px rgba(0, 0, 0, 0.2) ;
+ }
+
+ form input.equal
+ {
+    color: #fff;
+    background: #cf722b;
+ }
+ .calculator form input.equal:hover
+ {
+    background: #d28549;
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.21), -5px -5px 15px rgba(0, 0, 0, 0.2) ;
+ }
+ .calculator form input.equal:active{
+    background: #d48b53;
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.21), -5px -5px 15px rgba(0, 0, 0, 0.2) ;
+ }
